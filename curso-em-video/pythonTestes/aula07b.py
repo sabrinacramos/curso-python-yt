@@ -1,40 +1,4 @@
 # DESAFIOS
-# 1 - FAÇA UM PROGRAMA QUE LEIA UM NÚMERO INTEIRO E MOSTRE NA TELA O SEU SUCESSOR E SEU ANTECESSOR
-
-# n1 = int(input('digite um número inteiro: '))
-# n2 = 1
-
-# soma = n1 + n2
-# sub = n1 - n2
-
-# print(f'Sucessor {soma} \nAntesessor {sub}')
-
-# -------------------------------------------------------------------------------------------------------------
-
-# 2 - CRIE UM ALGORITIMO QUE LEIA UM NÚMERO E MOSTRE O SEU DOBRO, TRIPLO E RAIZ QUADRADA 
-
-# numero = int(input('Digite um número: '))
-# dobro = numero * 2
-# triplo = numero * 3
-# raiz = numero ** 0.5
-
-# print(f'O número digitado foi {numero}, o drobro dele é {dobro}, o triplo é {triplo} e a raiz quadrada é {raiz:.2f}.')
-
-# -------------------------------------------------------------------------------------------------------------
-
-# 3 - DESENVOLVA UM PROGRAMA QUE LEIA AS DUAS NOTAS DE UM ALUNO. CALCULE E MOSTRE SUA MÉDIA
-
-# nomeAluno = input('Nome do aluno: ')
-# quantidadeNotas = int(input('Digite a quantidade de notas: '))
-
-# humanas = float(input('Nota humanas: '))
-# exatas = float(input('Nota exatas: '))
-
-# media = (humanas + exatas) / quantidadeNotas
-
-# print(f'A media do/a {nomeAluno} é {media}')
-
-# -------------------------------------------------------------------------------------------------------------
 
 # 4 - ESCREVA UM PROGRAMA QUE LEIA UM VALOR EM METROS E O EXIBA CONVERTIDO EM CENTIMETROS E MILIMETROS 
 
@@ -79,16 +43,32 @@
 
 # 7 - FAÇA UM PROGRAMA QUE LEIA A LARGURA EA ALTURA DE UMA PAREDE EM METROS. CALCULE A SUA ÁREA E A QUANTIDADE DE TINTA NECESSÁRIA PARA PINTÁ-LA. SABENDO QUE CADA LITRO DE TINTA PINTA UMA ÁREA DE 2 METROS QUADRADOS. 
 
-largura = float(input('Digite a largura em metros: '))
-altura = float(input('Digite a altura em metros: '))
+# largura = float(input('Digite a largura em metros: '))
+# altura = float(input('Digite a altura em metros: '))
 
-area = largura * altura
+# area = largura * altura
 
-qtdTinta = area / 2
+# qtdTinta = area / 2
 
-print(f'Para pintar uma parede de {area:.0f} metros quadrados é necessário {qtdTinta:.0f} litros de tinta!')
+# print(f'Para pintar uma parede de {area:.0f} metros quadrados é necessário {qtdTinta:.0f} litros de tinta!')
 
+# -------------------------------------------------------------------------------------------------------------
 
+# 7 - FAÇA UM ALGORITMO QUE LEIA O PREÇO DE UM PRODUTO E MOSTRE O SEU NOVO PREÇO, COM 5% DE DESCONTO
 
+# preco = float(input('Digite o preço de um produto: '))
 
+# desconto = preco * 0.05
+
+# print(f'Com 5% de desconto o valor do produto muda para R${desconto:.2f}!')
+
+# -------------------------------------------------------------------------------------------------------------
+
+# 8 - FAÇA UM ALGORITMO QUE LEIA O SALARIO DE UM FUNCIONARIO E MOSTRE SEU NOVO SALARIO COM 15% DE AUMENTO
+
+# salario = float(input('Digite o salario: '))
+
+# aumento = salario * 1.15
+
+# print(f'Com o aumento de 15% o salario foi de R${salario:.2f} para R${aumento:.2f}')
 
